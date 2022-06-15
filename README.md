@@ -1,7 +1,7 @@
 # Gauss-Jordan-MPI
 Open MPI 4.0.3
 
-My parallel implementation of the Gauss-Jordan algorithm for solving a linear system Ax=b, where the matrix A is square non-degenerate.
+My parallel implementation of the Gauss-Jordan algorithm (with the selection of the maximum element by the absolute value of the row and with the subsequent rearrangement of the columns) for solving a linear system Ax=b, where the matrix A is square non-degenerate.
 The vector b is determined by the matrix A as follows bi is the sum of k from 0 to (n-2)/2 a_{i, 2k+1}, where n is the size of the matrix. It follows from this that the theoretical solution is a vector (1, 0, 1, 0 ...)
 
 To compile the project
